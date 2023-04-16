@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:roll_dice/gradient_container.dart';
 
 void main() {
-  runApp(const FirstApp());
+  runApp(const RollDice());
 }
 
-class FirstApp extends StatelessWidget {
-  const FirstApp({super.key});
+class RollDice extends StatelessWidget {
+  const RollDice({super.key});
 
   @override
   Widget build(BuildContext context) {
